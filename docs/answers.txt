@@ -1,0 +1,63 @@
+(a)
+
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 679 bytes | 679.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/leavepaulS/assignment2
+   4225b82..ab181b0  master -> master
+
+(b)
+
+14
+git log
+
+(c)
+
+git log .gitignore
+Date:   Wed Oct 2 21:08:50 2019 -0400
+
+(d)
+
+ - It makes it harder for unstable code to appear in the main project.
+ - Lets multiple people work on different features of the same 
+   project at the same time.
+
+(e)
+
+git status shows the current state of changes staged and not staged for commits
+git log shows the history of commits in the current repository
+
+(f)
+
+git log Vehicle.h
+
+(g)
+
+git log --grep='file'
+
+(h)
+
+Inheritance - when a class makes use of existing properties found in other classes
+
+Polymorphism - the ability for methods within a class to be called in more than one way,
+               with different parameters or different numbers of parameters
+
+Encapsulation - bundling data in a class together in contained spaces, generally separating 
+                parts of a program, keeping them from interacting with each other directly
+
+(i)
+
+Integration Manager Workflow involves multiple repositories owned by each developer, they can all 
+push to and pull from their repositories. Dictator and Lieutenants Workflow involves one central 
+repository that can be pulled from by everyone, but only pushed to by the dictator of the group.
+
+(j)
+
+I would imagine that handling 100 different repositories would be extremely difficult for one
+integration manager.
+With a Dictator and Lieutenants Workflow, the work done by the 100 developers can be broken up 
+and managed by Lieutenants before being sent to the dictator to merge into the central repository.
