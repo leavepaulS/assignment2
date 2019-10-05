@@ -61,3 +61,16 @@ I would imagine that handling 100 different repositories would be extremely diff
 integration manager.
 With a Dictator and Lieutenants Workflow, the work done by the 100 developers can be broken up 
 and managed by Lieutenants before being sent to the dictator to merge into the central repository.
+
+5.
+
+The Driving simulator prototype is using both. 
+
+  An example of polymorphism can be found in the car.h and car.cpp:
+    There are two uses of the function Car(), the constructor for the class.
+    One with parameters and one without.
+
+  An example of encapsulation can also be found in the car class:
+    the functions getEngineSize() and setEngineSize() are not allowing for
+    direct access to the engineSize member.
+    
