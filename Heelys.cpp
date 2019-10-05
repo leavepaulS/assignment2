@@ -35,5 +35,5 @@ double Heelys::mileageEstimate(double time) {
 string Heelys::toString() {
     string s = "-> Heelys\n\t";
     return "-> Heelys\n" + Vehicle::toString() + "\n\tCondition: " +
-           shoeCondition;
+           getShoeCondition();
 }

@@ -22,6 +22,7 @@ public:
     int getNumberOfEngines();
     void setNumberOfEngines(int engines);
     virtual double mileageEstimate(double time);
+    virtual string toString();
 };
 
 #endif //DRIVINGSIMULATOR_JET_H
